@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<wrgac05_dlob.hans_dir850l>
+	<runtime>
+		<diagnostic>
+			<ping set="/etc/scripts/ping.sh set" get="/etc/scripts/ping.sh get"></ping>
+			<ping6 set="/etc/scripts/ping.sh set6" get="/etc/scripts/ping.sh get"></ping6>
+		</diagnostic>
+	</runtime>
+</wrgac05_dlob.hans_dir850l>
