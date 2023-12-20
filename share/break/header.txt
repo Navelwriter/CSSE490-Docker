@@ -1,0 +1,20 @@
+Magic:                           7f 45 4c 46 
+Class:                           CLASS32
+Endianness:                      LSB
+Version:                         CURRENT
+OS/ABI:                          SYSTEMV
+ABI Version:                     0
+Machine type:                    ARM
+File type:                       EXECUTABLE
+Object file version:             CURRENT
+Entry Point:                     0x10408
+Program header offset:           0x34
+Section header offset:           4924
+Processor Flag:                  83886592 SOFT_FLOAT EABI_VER5
+Header size:                     52
+Size of program header:          32
+Number of program header:        8
+Size of section header:          40
+Number of section headers:       29
+Section Name Table idx:          28
+

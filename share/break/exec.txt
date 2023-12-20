@@ -1,0 +1,128 @@
+
+Symbol table '.dynsym' contains 11 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@GLIBC_2.4 (2)
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtoul@GLIBC_2.4 (2)
+     4: 0002078c     4 OBJECT  GLOBAL DEFAULT   23 stdout@GLIBC_2.4 (2)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.4 (2)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@GLIBC_2.4 (2)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@GLIBC_2.4 (2)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@GLIBC_2.4 (2)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort@GLIBC_2.4 (2)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@GLIBC_2.4 (2)
+
+Symbol table '.symtab' contains 111 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00010134     0 SECTION LOCAL  DEFAULT    1 .interp
+     2: 00010148     0 SECTION LOCAL  DEFAULT    2 .note.gnu.build-id
+     3: 0001016c     0 SECTION LOCAL  DEFAULT    3 .note.ABI-tag
+     4: 0001018c     0 SECTION LOCAL  DEFAULT    4 .gnu.hash
+     5: 000101d4     0 SECTION LOCAL  DEFAULT    5 .dynsym
+     6: 00010284     0 SECTION LOCAL  DEFAULT    6 .dynstr
+     7: 000102ee     0 SECTION LOCAL  DEFAULT    7 .gnu.version
+     8: 00010304     0 SECTION LOCAL  DEFAULT    8 .gnu.version_r
+     9: 00010324     0 SECTION LOCAL  DEFAULT    9 .rel.dyn
+    10: 00010334     0 SECTION LOCAL  DEFAULT   10 .rel.plt
+    11: 0001037c     0 SECTION LOCAL  DEFAULT   11 .init
+    12: 00010388     0 SECTION LOCAL  DEFAULT   12 .plt
+    13: 00010408     0 SECTION LOCAL  DEFAULT   13 .text
+    14: 00010624     0 SECTION LOCAL  DEFAULT   14 .fini
+    15: 0001062c     0 SECTION LOCAL  DEFAULT   15 .rodata
+    16: 00010654     0 SECTION LOCAL  DEFAULT   16 .ARM.exidx
+    17: 0001065c     0 SECTION LOCAL  DEFAULT   17 .eh_frame
+    18: 00020660     0 SECTION LOCAL  DEFAULT   18 .init_array
+    19: 00020664     0 SECTION LOCAL  DEFAULT   19 .fini_array
+    20: 00020668     0 SECTION LOCAL  DEFAULT   20 .dynamic
+    21: 00020750     0 SECTION LOCAL  DEFAULT   21 .got
+    22: 00020784     0 SECTION LOCAL  DEFAULT   22 .data
+    23: 0002078c     0 SECTION LOCAL  DEFAULT   23 .bss
+    24: 00000000     0 SECTION LOCAL  DEFAULT   24 .comment
+    25: 00000000     0 SECTION LOCAL  DEFAULT   25 .ARM.attributes
+    26: 00000000     0 FILE    LOCAL  DEFAULT  ABS /usr/lib/gcc-cross/arm-linux-gnueabi/9/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+    27: 0001016c     0 NOTYPE  LOCAL  DEFAULT    3 $d
+    28: 00010408     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    29: 00010654     0 NOTYPE  LOCAL  DEFAULT   16 $d
+    30: 00010438     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    31: 0001062c     0 NOTYPE  LOCAL  DEFAULT   15 $d
+    32: 00020784     0 NOTYPE  LOCAL  DEFAULT   22 $d
+    33: 00000000     0 FILE    LOCAL  DEFAULT  ABS /usr/lib/gcc-cross/arm-linux-gnueabi/9/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+    34: 00010444     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    35: 00010444     0 FUNC    LOCAL  DEFAULT   13 call_weak_fn
+    36: 00010460     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    37: 0001037c     0 NOTYPE  LOCAL  DEFAULT   11 $a
+    38: 00010624     0 NOTYPE  LOCAL  DEFAULT   14 $a
+    39: 00000000     0 FILE    LOCAL  DEFAULT  ABS /usr/lib/gcc-cross/arm-linux-gnueabi/9/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+    40: 00010384     0 NOTYPE  LOCAL  DEFAULT   11 $a
+    41: 00010628     0 NOTYPE  LOCAL  DEFAULT   14 $a
+    42: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    43: 00010468     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    44: 00010468     0 FUNC    LOCAL  DEFAULT   13 deregister_tm_clones
+    45: 00010488     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    46: 00010494     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    47: 00010494     0 FUNC    LOCAL  DEFAULT   13 register_tm_clones
+    48: 000104c0     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    49: 00020788     0 NOTYPE  LOCAL  DEFAULT   22 $d
+    50: 000104cc     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    51: 000104cc     0 FUNC    LOCAL  DEFAULT   13 __do_global_dtors_aux
+    52: 000104f0     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    53: 00020790     1 OBJECT  LOCAL  DEFAULT   23 completed.10172
+    54: 00020664     0 NOTYPE  LOCAL  DEFAULT   19 $d
+    55: 00020664     0 OBJECT  LOCAL  DEFAULT   19 __do_global_dtors_aux_fini_array_entry
+    56: 000104f4     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    57: 000104f4     0 FUNC    LOCAL  DEFAULT   13 frame_dummy
+    58: 00020660     0 NOTYPE  LOCAL  DEFAULT   18 $d
+    59: 00020660     0 OBJECT  LOCAL  DEFAULT   18 __frame_dummy_init_array_entry
+    60: 00020790     0 NOTYPE  LOCAL  DEFAULT   23 $d
+    61: 00000000     0 FILE    LOCAL  DEFAULT  ABS breakme.c
+    62: 00010630     0 NOTYPE  LOCAL  DEFAULT   15 $d
+    63: 000104f8     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    64: 00010518     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    65: 0001051c     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    66: 000105b4     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    67: 00000000     0 FILE    LOCAL  DEFAULT  ABS elf-init.oS
+    68: 000105c0     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    69: 00010618     0 NOTYPE  LOCAL  DEFAULT   13 $d
+    70: 00010620     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    71: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    72: 0001065c     0 NOTYPE  LOCAL  DEFAULT   17 $d
+    73: 0001065c     0 OBJECT  LOCAL  DEFAULT   17 __FRAME_END__
+    74: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+    75: 00020664     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_end
+    76: 00020668     0 OBJECT  LOCAL  DEFAULT   20 _DYNAMIC
+    77: 00020660     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_start
+    78: 00020750     0 OBJECT  LOCAL  DEFAULT   21 _GLOBAL_OFFSET_TABLE_
+    79: 00010388     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    80: 00010398     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    81: 0001039c     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    82: 00010620     4 FUNC    GLOBAL DEFAULT   13 __libc_csu_fini
+    83: 00020784     0 NOTYPE  WEAK   DEFAULT   22 data_start
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@@GLIBC_2.4
+    85: 0002078c     0 NOTYPE  GLOBAL DEFAULT   23 __bss_start__
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@@GLIBC_2.4
+    87: 00020794     0 NOTYPE  GLOBAL DEFAULT   23 _bss_end__
+    88: 0002078c     0 NOTYPE  GLOBAL DEFAULT   22 _edata
+    89: 00010624     0 FUNC    GLOBAL HIDDEN    14 _fini
+    90: 00020794     0 NOTYPE  GLOBAL DEFAULT   23 __bss_end__
+    91: 00020784     0 NOTYPE  GLOBAL DEFAULT   22 __data_start
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@@GLIBC_2.4
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@@GLIBC_2.4
+    94: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    95: 00020788     0 OBJECT  GLOBAL HIDDEN    22 __dso_handle
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@@GLIBC_2.4
+    97: 0001062c     4 OBJECT  GLOBAL DEFAULT   15 _IO_stdin_used
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtoul@@GLIBC_2.4
+    99: 000105c0    96 FUNC    GLOBAL DEFAULT   13 __libc_csu_init
+   100: 000104f8    36 FUNC    GLOBAL DEFAULT   13 win
+   101: 00020794     0 NOTYPE  GLOBAL DEFAULT   23 _end
+   102: 00010408     0 FUNC    GLOBAL DEFAULT   13 _start
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@@GLIBC_2.4
+   104: 00020794     0 NOTYPE  GLOBAL DEFAULT   23 __end__
+   105: 0002078c     4 OBJECT  GLOBAL DEFAULT   23 stdout@@GLIBC_2.4
+   106: 0002078c     0 NOTYPE  GLOBAL DEFAULT   23 __bss_start
+   107: 0001051c   164 FUNC    GLOBAL DEFAULT   13 main
+   108: 0002078c     0 OBJECT  GLOBAL HIDDEN    22 __TMC_END__
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort@@GLIBC_2.4
+   110: 0001037c     0 FUNC    GLOBAL HIDDEN    11 _init
