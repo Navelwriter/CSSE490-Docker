@@ -1,0 +1,9 @@
+#Ghidra Lock File
+#Mon Jan 22 13:43:56 EST 2024
+OS\ Name=Linux
+OS\ Version=5.15.133.1-microsoft-standard-WSL2
+Username=navel
+Hostname=NoahPC
+<META>\ Supports\ File\ Channel\ Locking=Channel Lock
+OS\ Architecture=amd64
+Timestamp=1/22/24, 1\:43 PM
