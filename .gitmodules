@@ -1,0 +1,3 @@
+[submodule "share/mp3-modifying-a-firmware-Navelwriter"]
+	path = share/mp3-modifying-a-firmware-Navelwriter
+	url = git@github.com:reclasses/mp3-modifying-a-firmware-Navelwriter.git
