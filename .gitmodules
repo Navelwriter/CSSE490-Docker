@@ -4,3 +4,6 @@
 [submodule "share/final-project-Navelwriter"]
 	path = share/final-project-Navelwriter
 	url = git@github.com:reclasses/final-project-Navelwriter.git
+[submodule "share/CSSE490-Final-Project-Leeni-Renc"]
+	path = share/CSSE490-Final-Project-Leeni-Renc
+	url = git@github.com:Navelwriter/CSSE490-Final-Project-Leeni-Renc.git
